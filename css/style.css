@@ -1,0 +1,226 @@
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --secondary-font-family: 'Raleway', sans-serif;
+  --primary-text-color-theme-light: #212121;
+  --secondary-text-color-theme-light: #757575;
+  --text-and-background-color: #ffffff;
+  --accent-collor: #2196f3;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  background: var(--text-and-background-color);
+  color: var(--primary-text-color-theme-light);
+}
+
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+
+/* ШАПКА САЙТА*/
+
+.logo {
+  font-family: var(--secondary-font-family);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-collor);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+.footer-logo {
+  color: var(--text-and-background-color);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-collor);
+}
+.active-page {
+  color: var(--accent-collor);
+}
+
+.contact-section {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-theme-light);
+}
+.contact-section:hover,
+.contact-section:focus {
+  color: var(--accent-collor);
+}
+
+/* КОНЕЦ СЕКЦИИ ШАПКИ САЙТА, НАЧАЛО СЕКЦИИ ГЕРОЙ */
+
+.hero {
+  background: #2f303a;
+}
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-and-background-color);
+}
+
+.modal-btn {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 4px;
+  color: var(--text-and-background-color);
+  background: var(--accent-collor);
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #188ce8;
+}
+
+/* КОНЕЦ СЕКЦИИ ГЕРОЙ, НАЧАЛО СЕКЦИИ ЧЕМ МЫ ЗАНИМАЕМСЯ*/
+
+.caption {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+/* КОНЕЦ СЕКЦИИ ЧЕМ МЫ ЗАНИМАЕМСЯ, НАЧАЛО СЕКЦИИ НАША КОМАНДА  */
+
+.profession {
+  background: #f5f4fa;
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.employee {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.employee-profession {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+/* КОНЕЦ СЕКЦИИ НАША КОМАНДА, НАЧАЛО СЕКЦИИ ПОДВАЛ */
+
+.footer {
+  background: #2f303a;
+}
+.contact {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--text-and-background-color);
+}
+.contact:hover,
+.contact:focus {
+  color: var(--accent-collor);
+}
+
+.сontact-information {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.сontact-information:hover,
+.сontact-information:focus {
+  color: var(--accent-collor);
+}
+
+/* КОНЕЦ СЕКЦИИ ПОДВАЛ, НАЧАЛО СЕКЦИИ ПОРТФОЛИО, КНОПКИ*/
+
+.button-list {
+  font-family: var(--primary-font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border-style: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  color: var(--primary-text-color-theme-light);
+}
+.button-list:hover,
+.button-list:focus {
+  color: var(--text-and-background-color);
+  background: #188ce8;
+}
+
+/* КОНЕЦ СЕКЦИИ КНОПКИ, НАЧАЛО СЕКЦИИ ПРИМЕРЫ РАБОТ */
+
+.subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color-theme-light);
+}
+
+.tagline {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-theme-light);
+}
+
+/* КОНЕЦ СЕКЦИИ ПРИМЕРЫ РАБОТ, КОНЕЦ СЕКЦИИ ПОРТФОЛИО */
