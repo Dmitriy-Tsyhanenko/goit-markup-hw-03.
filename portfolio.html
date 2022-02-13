@@ -24,34 +24,44 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <a class="link logo" href="./" lang="en">Web<span class="logo-studio">Studio</span></a>
-      <nav class="navigation">
-        <ul class="nav-list list">
-          <li><a class="nav-list-link link" href="index.html">Студия</a></li>
-          <li>
-            <a class="nav-list-link link active-page" href="portfolio.html">Портфолио</a>
-          </li>
-          <li><a class="nav-list-link link" href="">Контакты</a></li>
-        </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="contact-section link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li><a class="contact-section link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-      </ul>
+      <div class="container page-nav">
+        <a class="link logo" href="./" lang="en">Web<span class="logo-studio">Studio</span></a>
+        <nav class="navigation">
+          <ul class="nav-list list">
+            <li class="nav-list-item">
+              <a class="nav-list-link link" href="index.html">Студия</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link link active-page" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav-list-item"><a class="nav-list-link link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="page-nav-list">
+          <ul class="nav-list list">
+            <li class="nav-list-item">
+              <a class="nav-list-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="nav-list-item">
+              <a class="nav-list-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </header>
     <main>
       <section class="portfolio-section">
-        <h1>Примеры работ</h1>
-        <!--кнопки-->
-        <ul class="list">
-          <li><button class="button-list" type="button">Все</button></li>
-          <li><button class="button-list" type="button">Веб-сайты</button></li>
-          <li><button class="button-list" type="button">Приложения</button></li>
-          <li><button class="button-list" type="button">Дизайн</button></li>
-          <li><button class="button-list" type="button">Маркетинг</button></li>
-        </ul>
+        <div class="container">
+          <h1>Примеры работ</h1>
+          <!--кнопки-->
+          <ul class="list">
+            <li><button class="button-list" type="button">Все</button></li>
+            <li><button class="button-list" type="button">Веб-сайты</button></li>
+            <li><button class="button-list" type="button">Приложения</button></li>
+            <li><button class="button-list" type="button">Дизайн</button></li>
+            <li><button class="button-list" type="button">Маркетинг</button></li>
+          </ul>
+        </div>
         <!--Примеры работ-->
         <ul class="list">
           <li>
@@ -152,24 +162,28 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-      <a class="link logo" href="/" lang="en">Web<span class="footer-logo">Studio</span></a>
-      <address class="contact-section">
-        <ul class="list">
-          <li>
-            <a class="contact link" href="г.Киев,пр-т-Леси-Украинки,26"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a class="сontact-information link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="сontact-information link" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container contact-acdress">
+        <div class="logo-section">
+          <a class="link logo" href="/" lang="en">Web<span class="footer-logo">Studio</span></a>
+        </div>
+        <address class="contact-section">
+          <ul class="list contact-list">
+            <li class="contact-list-item">
+              <a class="contact link" href="г.Киев,пр-т-Леси-Украинки,26"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="contact-list-item">
+              <a class="сontact-information link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-number">
+              <a class="сontact-information link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
