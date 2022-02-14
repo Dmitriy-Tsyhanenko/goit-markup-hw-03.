@@ -32,6 +32,7 @@ ol {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 .list {
   list-style: none;
@@ -66,8 +67,12 @@ img {
   color: var(--text-and-background-color);
 }
 
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .logo {
-  margin-right: 93px;
+  margin-right: auto;
 }
 .page-nav {
   display: flex;
@@ -84,13 +89,9 @@ img {
   margin: 0;
 }
 .page-nav-list {
-  margin-left: 331px;
+  margin-left: auto;
 }
 .nav-list-link {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -140,20 +141,21 @@ img {
 .modal-btn:focus {
   background: #188ce8;
 }
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
 .hero-section {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 200px;
-  padding-top: 200px;
-  margin-bottom: 94px;
+}
+.title {
+  margin-bottom: 30px;
 }
 .modal-btn {
   padding: 10px 32px 10px 32px;
-}
-
-.title {
-  margin-bottom: 30px;
 }
 
 /* КОНЕЦ СЕКЦИИ ГЕРОЙ, НАЧАЛО СЕКЦИИ ЧЕМ МЫ ЗАНИМАЕМСЯ*/
@@ -179,16 +181,19 @@ img {
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
+.section-work {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .text-list {
   display: flex;
   flex-wrap: wrap;
-  margin-left: -30px;
-  margin-bottom: 94px;
+  margin-right: -30px;
 }
 
 .text-list > .list-item {
   flex-basis: calc(100% / 4 - 30px);
-  margin-left: 30px;
+  margin-right: 30px;
 }
 .text-list > .list-item:last-child {
   margin: 0;
@@ -198,6 +203,9 @@ img {
 }
 /* фотограии */
 
+.text-item {
+  padding-bottom: 94px;
+}
 .section-heading {
   text-align: center;
   margin-bottom: 50px;
@@ -206,7 +214,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-right: -30px;
-  margin-bottom: 94px;
 }
 .section-page > .section-img {
   flex-basis: calc(100% / 3 - 30px);
@@ -243,12 +250,15 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
 }
+.profession {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .team {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 94px;
   margin-bottom: 50px;
 }
 
@@ -272,7 +282,6 @@ img {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   padding: 30px 59px 30px 59px;
-  margin-bottom: 94px;
 }
 .employee {
   margin-bottom: 10px;
@@ -309,16 +318,17 @@ img {
   color: var(--accent-collor);
 }
 
-.logo-section {
+.footer {
   padding-top: 60px;
+  padding-bottom: 60px;
+}
+.logo-section {
   margin-bottom: 20px;
 }
 .contact-list-item {
   margin-bottom: 9px;
 }
-.contact-number {
-  padding-bottom: 60px;
-}
+
 /* КОНЕЦ СЕКЦИИ ПОДВАЛ, НАЧАЛО СЕКЦИИ ПОРТФОЛИО, КНОПКИ*/
 
 .button-list {
@@ -340,6 +350,30 @@ img {
   background: #188ce8;
 }
 
+.portfolio-section {
+  padding-top: 94px;
+}
+
+.portfolio-section-list {
+  display: none;
+}
+.portfolio-button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.portfolio-button-list {
+  margin-right: 8px;
+}
+.portfolio-button-list:last-child {
+  margin: 0;
+}
+.button-list {
+  padding: 6px 22px 6px 22px;
+}
+
 /* КОНЕЦ СЕКЦИИ КНОПКИ, НАЧАЛО СЕКЦИИ ПРИМЕРЫ РАБОТ */
 
 .subtitle {
@@ -355,6 +389,34 @@ img {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color-theme-light);
+}
+
+.portfolio-section {
+  padding-bottom: 94px;
+}
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+}
+
+.examples > .example-element-works {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.examples > .example-element-works:nth-child(3n + 1) {
+  margin-left: 0px;
+}
+.subtitle {
+  margin-bottom: 10px;
+}
+.examples-img {
+  background: var(--text-and-background-color);
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  width: 370px;
+  padding: 20px 24px 20px 24px;
 }
 
 /* КОНЕЦ СЕКЦИИ ПРИМЕРЫ РАБОТ, КОНЕЦ СЕКЦИИ ПОРТФОЛИО */
